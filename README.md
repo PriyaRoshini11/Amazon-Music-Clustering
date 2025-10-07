@@ -41,19 +41,19 @@ Visualization: Streamlit Dashboard
 
 **Import Libraries:**
 
-# === Data Handling ===
+** === Data Handling ===**
 
 import pandas as pd
 
 import numpy as np
 
-# === Visualization ===
+** === Visualization ===**
 
 import matplotlib.pyplot as plt
 
 import seaborn as sns
 
-# === Machine Learning & Clustering ===
+**=== Machine Learning & Clustering ===**
 
 from sklearn.preprocessing import StandardScaler
 
@@ -63,7 +63,7 @@ from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering
 
 from sklearn.metrics import silhouette_score, davies_bouldin_score
 
-Approach:
+**Approach:**
 
 Data Loading & Exploration – Imported the Amazon Music dataset and explored song-level attributes like energy, tempo, and valence using pandas and seaborn.
 
@@ -81,7 +81,7 @@ Visualization & Insights – Visualized clusters through PCA scatter plots and h
 
 Dashboard Development – Built an interactive Streamlit app to explore clusters dynamically, visualize feature comparisons, and display top 10 songs per cluster.
 
-Snapshot:
+**Snapshot:**
 
 <img width="1918" height="1006" alt="image" src="https://github.com/user-attachments/assets/6920330e-f395-46f6-b6d3-c997e95a1f47" />
 
