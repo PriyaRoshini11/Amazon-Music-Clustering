@@ -9,7 +9,7 @@ import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
-
+st.set_page_config(page_title="Amazon Music Clustering", layout="wide")
 @st.cache_data
 def load_data():
     df = pd.read_csv("amazon_music_final_clusters.csv")
@@ -18,7 +18,6 @@ def load_data():
 
 df, summary = load_data()
 
-st.set_page_config(page_title="Amazon Music Clustering", layout="wide")
 st.title("🎧 Amazon Music Clustering Dashboard")
 st.markdown("Visualize how songs are grouped into clusters based on audio features like energy, danceability, and tempo.")
 
@@ -101,4 +100,5 @@ else:
 
 
 st.markdown("---")
+
 st.caption("Built by S.Priya Roshini — Amazon Music Clustering | Unsupervised ML Project")
